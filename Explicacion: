@@ -1,0 +1,12 @@
+Interfaces:
+
+IPrintable y IScannable son contratos que aseguran que las clases que los implementen tendrán las funciones Print y Scan respectivamente.
+Clases:
+
+SimplePrinter implementa la interfaz IPrintable, lo que significa que esta clase tiene la capacidad de imprimir (definido por el método Print).
+MultiFunctionPrinter implementa tanto IPrintable como IScannable, lo que significa que esta clase puede tanto imprimir como escanear (definido por los métodos Print y Scan).
+Uso en el Programa:
+
+En el método Main del programa:
+*Se crea una instancia de SimplePrinter que solo puede imprimir.
+*Se crea una instancia de MultiFunctionPrinter que puede imprimir y escanear.
